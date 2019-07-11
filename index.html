@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Shopping</title>
+  </head>
+  <body>
+    <div class="cart-container-overlay"></div>
+    <div class="cart-container">
+      <div class="cancel"><span class="cancel-btn">X</span></div>
+      <div class="cart-toggler" for="cart">
+        <img class="cart-img" src="assets/img/cart.svg" alt="Cart" />
+        <span class="cart-number"></span>
+      </div>
+      <div class="cart-products"></div>
+      <p class="total-price">
+        Your total: ₹ <span class="total-checkout-price">0</span>
+      </p>
+      <p class="no-item">
+        No item in cart
+      </p>
+      <button class="btn clear-cart">Clear Cart</button>
+    </div>
+
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#!" class="nav-toggler"></a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="navbar-brand">
+                <span class="m">M</span> <span class="kart">karT</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <label class="cart-toggler" for="cart">
+                <img class="cart-img" src="assets/img/cart.svg" alt="Cart" />
+                <span class="cart-number"></span>
+              </label>
+              <input type="checkbox" id="cart" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="hero-content">
+          <h1 class="hero-heading">Buy Anything!</h1>
+          <button class="cta btn">Order Now !</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="products-section">
+        <h2 class="products-heading">Our Products</h2>
+
+        <div class="products">
+          <div class="product">
+            <div class="product__img">
+              <img
+                class="product-img"
+                src="assets/img/product-1.jpeg"
+                alt="product 1"
+                id="product-1"
+              />
+              <span class="added hide">Already in the Cart</span>
+              <span class="not-added"> + Add to Cart</span>
+            </div>
+            <p class="product-name">Product 1</p>
+            <p class="product-price">
+              <span>₹</span> <span class="per-product-price">10480</span>
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="product__img">
+              <img
+                class="product-img"
+                src="assets/img/product-2.jpeg"
+                alt="product 2"
+                id="product-2"
+              />
+              <span class="added hide">Already in the Cart</span>
+              <span class="not-added"> + Add to Cart</span>
+            </div>
+            <p class="product-name">Product 2</p>
+            <p class="product-price">
+              <span>₹</span> <span class="per-product-price">7452</span>
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="product__img">
+              <img
+                class="product-img"
+                src="assets/img/product-3.jpeg"
+                alt="product 3"
+                id="product-3"
+              />
+              <span class="added hide">Already in the Cart</span>
+              <span class="not-added"> + Add to Cart</span>
+            </div>
+            <p class="product-name">Product 3</p>
+            <p class="product-price">
+              <span>₹</span> <span class="per-product-price">9510</span>
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="product__img">
+              <img
+                class="product-img"
+                src="assets/img/product-4.jpeg"
+                alt="product 4"
+                id="product-4"
+              />
+              <span class="added hide">Already in the Cart</span>
+              <span class="not-added"> + Add to Cart</span>
+            </div>
+            <p class="product-name">Product 4</p>
+            <p class="product-price">
+              <span>₹</span> <span class="per-product-price">9999</span>
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="product__img">
+              <img
+                class="product-img"
+                src="assets/img/product-5.jpeg"
+                alt="product 5"
+                id="product-5"
+              />
+              <span class="added hide">Already in the Cart</span>
+              <span class="not-added"> + Add to Cart</span>
+            </div>
+            <p class="product-name">Product 5</p>
+            <p class="product-price">
+              <span>₹</span> <span class="per-product-price">10500</span>
+            </p>
+          </div>
+
+          <div class="product">
+            <div class="product__img">
+              <img
+                class="product-img"
+                src="assets/img/product-6.jpeg"
+                alt="product 6"
+                id="product-6"
+              />
+              <span class="added hide">Already in the Cart </span>
+              <span class="not-added"> + Add to Cart </span>
+            </div>
+            <p class="product-name">Product 6</p>
+            <p class="product-price">
+              <span>₹</span> <span class="per-product-price">11000</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
